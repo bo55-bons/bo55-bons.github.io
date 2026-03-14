@@ -1,45 +1,63 @@
 <!DOCTYPE html>
-<html>
+<html lang="id">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>BO55 Official - Premium Black Gold</title>
     <style>
-        body { background-color: #000; color: #fff; font-family: sans-serif; display: flex; justify-content: center; padding: 20px; }
-        .box { max-width: 500px; background: #111; border: 2px solid #d4af37; border-radius: 20px; padding: 30px; text-align: center; box-shadow: 0 0 20px rgba(212,175,55,0.4); margin-top: 50px; }
-        h1 { color: #d4af37; letter-spacing: 2px; text-transform: uppercase; }
-        .fitur-list { text-align: left; background: #1a1a1a; padding: 15px; border-radius: 10px; border: 1px solid #333; margin: 20px 0; }
-        .fitur-list div { margin-bottom: 10px; color: #ccc; font-size: 14px; }
-        .gold { color: #d4af37; font-weight: bold; }
-        .btn { display: inline-block; background: linear-gradient(45deg, #bf953f, #fcf6ba, #b38728); color: #000 !important; padding: 15px 40px; border-radius: 50px; text-decoration: none; font-weight: bold; font-size: 18px; margin-top: 10px; box-shadow: 0 4px 15px rgba(191,149,63,0.5); }
+        body { background-color: #000; color: #fff; font-family: 'Segoe UI', sans-serif; display: flex; justify-content: center; padding: 20px; min-height: 100vh; margin: 0; }
+        .box { max-width: 500px; background: #111; border: 2px solid #d4af37; border-radius: 20px; padding: 40px 25px; text-align: center; box-shadow: 0 0 30px rgba(212,175,55,0.3); margin: auto; }
+        
+        /* Logo Section */
+        .logo-text { background: linear-gradient(45deg, #bf953f, #fcf6ba, #b38728); -webkit-background-clip: text; -webkit-text-fill-color: transparent; font-size: 32px; font-weight: 800; letter-spacing: 3px; text-transform: uppercase; margin-bottom: 5px; }
+        .tagline { color: #888; font-size: 13px; font-style: italic; margin-bottom: 30px; }
+        
+        /* Fitur List Section */
+        .fitur-container { text-align: left; background: #1a1a1a; padding: 20px; border-radius: 15px; border: 1px solid #333; margin-bottom: 30px; }
+        .fitur-item { margin-bottom: 20px; }
+        .fitur-item:last-child { margin-bottom: 0; }
+        .fitur-title { color: #d4af37; font-weight: bold; font-size: 16px; display: flex; align-items: center; margin-bottom: 5px; }
+        .fitur-title::before { content: '✔'; margin-right: 10px; color: #d4af37; font-weight: bold; }
+        .fitur-desc { color: #999; font-size: 13px; line-height: 1.6; margin-left: 25px; }
+
+        /* Button Section */
+        .btn { display: inline-block; background: linear-gradient(45deg, #bf953f, #fcf6ba, #b38728); color: #000 !important; padding: 18px 0; width: 100%; border-radius: 50px; text-decoration: none; font-weight: bold; font-size: 18px; box-shadow: 0 5px 20px rgba(191,149,63,0.5); transition: 0.3s; text-transform: uppercase; }
+        .btn:hover { transform: scale(1.02); box-shadow: 0 8px 30px rgba(191,149,63,0.7); }
+        
+        footer { font-size: 10px; color: #444; margin-top: 30px; }
     </style>
 </head>
 <body>
 
 <div class="box">
-    <div style="text-align: center; margin-bottom: 20px;">
-    <img src="BO55.png" alt="Logo BO55 Official" style="max-width: 150px; height: auto;">
-</div>
-
-    <p>Inovasi Sistem Digital yang Presisi & Aman</p>
+    <div class="logo-text">BO55 OFFICIAL</div>
+    <div class="tagline">Inovasi Sistem Digital yang Presisi & Aman</div>
     
-    <div class="fitur-list">
-        <div><span class="gold">✔</span> <strong>Transaksi Real-Time:</strong> QRIS & VA</div>
+    <div class="fitur-container">
+        <div class="fitur-item">
+            <div class="fitur-title">Transaksi Real-Time: QRIS & VA</div>
+            <div class="fitur-desc">Nikmati deposit instan tanpa tunda. Sistem otomatis memproses pembayaran QRIS dan Virtual Account secara presisi dalam hitungan detik.</div>
         </div>
-            <p style="margin: 5px 0 0 28px; font-size: 13px; color: #999; line-height: 1.5;">
-                Nikmati kemudahan deposit instan tanpa tunda. Sistem kami secara otomatis memproses pembayaran melalui QRIS dan Virtual Account secara presisi dalam hitungan detik, memastikan saldo Anda langsung tersedia.
-            </p>
+
+        <div class="fitur-item">
+            <div class="fitur-title">Keamanan: Anti Anomali Sistem</div>
+            <div class="fitur-desc">Proteksi berlapis untuk mendeteksi aktivitas non-procedural. Data sobat dijamin aman dari gangguan manipulasi algoritma.</div>
         </div>
-        <div><span class="gold">✔</span> <strong>Keamanan:</strong>Live RTP Transparan</div>
-        <div><span class="gold">✔</span> <strong>Layanan:</strong> Chat Interaktif 24 Jam</div>
-        <div><span class="gold">✔</span> <strong>Peluang:</strong> Loyalty Program Member</div>
+
+        <div class="fitur-item">
+            <div class="fitur-title">Layanan: Bot Interaktif 24 Jam</div>
+            <div class="fitur-desc">Bantuan cerdas 24/7. Bot interaktif siap memberikan solusi cepat dan akurat untuk setiap kendala teknis kapan saja.</div>
+        </div>
+
+        <div class="fitur-item">
+            <div class="fitur-title">Peluang: Sistem Hoki Transparan</div>
+            <div class="fitur-desc">Bekerja sama dengan provider resmi untuk memastikan setiap pengguna memiliki peluang hoki yang adil dan transparan.</div>
+        </div>
     </div>
 
-    <p style="font-size: 14px; color: #888;">Selamat datang sobat! Nikmati layanan dengan standar enkripsi terbaru demi kenyamanan Anda.</p>
+    <a href="https://link-tujuan-lo.com" class="btn">LOGIN WEBSITE BO55</a>
 
-    <a href="https://vincentnailsspa.com/about-us/" class="btn">LOGIN WEBSITE BO55</a>
-
-    <p style="font-size: 10px; color: #444; margin-top: 25px;">&copy; 2026 BO55 Website</p>
+    <footer>&copy; 2026 SEO Specialist Lab. Hosted on GitHub Pages.</footer>
 </div>
 
 </body>
