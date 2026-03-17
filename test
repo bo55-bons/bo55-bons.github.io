@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BO55 - Belajar Struktur Nexus</title>
+
+    <link href="https://saucebosspizzeria.com/Content/normad-beta-desktop-css?v=VSCt4HLYcHhB-qw913vj20zyZi3cpqKQo7wjWC72fcg1" rel="stylesheet"/>
+    <link href="https://saucebosspizzeria.com/Content/Theme/normad-beta-desktop-dark-gold-css?v=NpmtceIubFXgrF25KtC_APztcyyC50zi3t6ki1MaIhs1" rel="stylesheet"/>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+    <style>
+        /* Tambahan dikit biar kelihatan di GitHub */
+        body { background-color: #000; color: #fff; }
+        .belajar-box { padding: 20px; border: 1px solid #fba501; margin-top: 20px; border-radius: 10px; }
+    </style>
+</head>
+<body>
+
+    <header class="header">
+        <div class="container">
+            <div class="header-top">
+                <div class="logo">
+                    <img src="https://api2-rrq.imgnxb.com/images/Fc9AcE7Ias/favicon_1a4e293a-5015-4d34-b394-2eb800fb02bc_1773638893380.png" width="50" alt="Logo">
+                    <span style="font-size: 24px; font-weight: bold; color: #fba501;">BO55</span>
+                </div>
+                
+                <div class="login-form">
+                    <input type="text" placeholder="Username" class="form-control">
+                    <input type="password" placeholder="Password" class="form-control">
+                    <button class="btn-login" style="background: #fba501; color: #000; padding: 5px 15px; border: none; font-weight: bold;">MASUK</button>
+                    <button class="btn-register" style="background: #333; color: #fff; padding: 5px 15px; border: 1px solid #fba501;">DAFTAR</button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main class="container">
+        <div class="belajar-box">
+            <h2>Gimana Cara Kerjanya?</h2>
+            <p>1. <strong>CSS External:</strong> Website ini narik desain dari <code>saucebosspizzeria.com</code>. Kalau link itu mati, web lo bakal pecah lagi.</p>
+            <p>2. <strong>Relative Link:</strong> Nexus asli pakai link seperti <code>/Account/Register</code>. Di GitHub, lo harus ganti jadi link lengkap kalau mau tombolnya bisa diklik.</p>
+            <p>3. <strong>Assets:</strong> Gambar banner tadi nggak muncul karena link-nya di kode lo sebelumnya cuma <code>assets/...</code>. Di sini gue pakai link <code>https://...</code> biar aman.</p>
+        </div>
+
+        <div style="margin-top: 20px; text-align: center;">
+            <img src="https://api2-rrq.imgnxb.com/images/Fc9AcE7Ias/id_cbd_aac4e5e1-64ac-46fa-ab23-8d4a2c77cf41_1773015884210.jpg" style="width: 100%; border-radius: 10px;" alt="Banner">
+        </div>
+    </main>
+
+</body>
+</html>
